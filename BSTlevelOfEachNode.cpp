@@ -39,7 +39,7 @@ int main()
 	}
 	BFS(1); // 1 is the source node
 }
-// apparent structure of graph
+/* apparent structure of graph
                   1
                /  |  \
               2   3   4
@@ -47,3 +47,4 @@ int main()
             5  100 200  99
                           \
                             61
+			 */
