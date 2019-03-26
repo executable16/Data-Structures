@@ -18,7 +18,7 @@ long long prims(int i)
 		sum+=cost;
 		vis[x]=true;
 
-		for(auto t : M[x])
+		for(auto t : M[x]) // O( 2*E log(V) )
 		{
 			if(!vis[t.second])
 				pq.push(t);
@@ -32,9 +32,9 @@ long long prims(int i)
 int main()
 {
 	int n,m;
-	memset(vis,false,sizeof(vis));
+	memset(vis,false,sizeof(vis)); 
 	cin>>n>>m;
-	for(int i=0;i<m;i++)
+	for(int i=0;i<m;i++) // O(E)
 	{
 		int a,b,w;
 		cin>>a>>b>>w;
