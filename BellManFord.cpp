@@ -7,12 +7,14 @@ struct graph
 	int end;
 	int cost;
 };
+graph v[1000005];
+long long int dis[100005];
 int main()
 {
 	int V,E;
 	cin>>V>>E;
-	graph v[E];
-	int dis[V+1];
+	//graph v[E];
+	//int dis[V+1];
 	for(int i=0;i<V+1;i++)
 	{
 		dis[i]=(int)INFINITY;
@@ -40,6 +42,6 @@ int main()
 	}
 	for(int i=1;i<=V;i++)
 	{
-		cout<<dis[i]<<endl;
+		cout<<dis[i]<<" ";
 	}
 }
