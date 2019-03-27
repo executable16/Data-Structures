@@ -44,4 +44,5 @@ int main()
 	{
 		cout<<dis[i]<<" ";
 	}
+	cout<<endl;
 }
