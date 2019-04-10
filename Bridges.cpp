@@ -43,7 +43,7 @@ int main()
     m[b].push_back(a);
   }
   parent[1]=-1;
-  //dfs(1);
+  dfs(1);
   
   //ap[1] = child[1]>1 ? true : false; 
  
