@@ -1,3 +1,21 @@
+/*
+-------------------------------------------------------------------------------------------------------------------------------------
+Algorithm :
+
+stack St;
+put start vertex in St;
+until St is empty
+  let V be the value at the top of St;
+  if degree(V) = 0, then
+    add V to the answer;
+    remove V from the top of St;
+  otherwise
+    find any edge coming out of V;
+    remove it from the graph;
+    put the second end of this edge in St;
+
+--------------------------------------------------------------------------------------------------------------------------------------
+*/
 #include<bits/stdc++.h>
 using namespace std;
 unordered_map<int,vector<int>> m;
