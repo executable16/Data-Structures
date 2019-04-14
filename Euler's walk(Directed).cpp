@@ -1,4 +1,4 @@
-		#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 unordered_map<int,vector<int>> m;
 unordered_map<int,int> c;
