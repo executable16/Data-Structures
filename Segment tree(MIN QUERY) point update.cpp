@@ -49,11 +49,15 @@ int main()
 		cin>>a[i];
 	int *segtree = new int[4*n];
 	construct_tree(a,segtree,0,0,n-1);
+	cout<<"Queries description \n";
+	cout<<"1 x y for query \n";
+	cout<<"2 x y to update a[x] to y \n";
 	int q;
 	cin>>q;
 	while(q--)
 	{
 		int l,r,c;
+		
 		cin>>c>>l>>r;
 		if(c==1){
 		--l,--r;
