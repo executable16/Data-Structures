@@ -10,7 +10,6 @@ int main()
 	long long maxi = INT_MIN, best = INT_MIN;
 	for(int i=0;i<n;i++)
 	{
-		cout<<maxi<<" "<<best<<endl;
 		maxi = max(a[i],maxi+a[i]);
 		best = max(best,maxi);
 	}
