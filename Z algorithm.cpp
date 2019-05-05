@@ -1,4 +1,4 @@
-// Prefix Function Z algorithm
+// Prefix Function Z algorithm for pattern matching
 vector<int> prefix(string s)
 {
     vector<int> pi(s.size());
