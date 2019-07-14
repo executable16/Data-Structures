@@ -1,3 +1,5 @@
+// https://www.codesdope.com/blog/article/backtracking-explanation-and-n-queens-problem/
+
 #include <stdio.h>
 #include<bits/stdc++.h>
 //Number of queens
