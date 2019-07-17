@@ -1,0 +1,8 @@
+	for(int i=31;i>=0;i--)
+	{
+		if(n & (1<<i))
+			v.emplace_back(1);
+		else 
+			v.emplace_back(0);
+		
+	}
