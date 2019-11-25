@@ -15,7 +15,7 @@ void merge(vector<int> &v , int start , int mid , int end){
 		right[j] = v[mid + j + 1];
 	}
 
-	int i=0,j=0,k=start;
+	int i=0,j=0,k=start; // notice here k is start !!!
 	while(i < L and j < R){
 		if(left[i] <= right[j]){
 			v[k] = left[i];
